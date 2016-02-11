@@ -1,11 +1,11 @@
 {
-  "name": "level-stream-view",
-  "description": "",
+  "name": "stream-view",
+  "description": "streaming database views",
   "version": "0.0.0",
-  "homepage": "https://github.com/dominictarr/level-stream-view",
+  "homepage": "https://github.com/dominictarr/stream-view",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/level-stream-view.git"
+    "url": "git://github.com/dominictarr/stream-view.git"
   },
   "dependencies": {
     "pull-stream": "^3.1.0"

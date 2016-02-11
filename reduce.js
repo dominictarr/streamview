@@ -1,4 +1,5 @@
-//a log view.
+//a simple stream view that reduces all values into a single
+//value. suitable for counts, sums, that produce a single value.
 
 var Update = require('./update')
 var Notify = require('./notify')
@@ -73,18 +74,4 @@ api = delayApi(sv.api, sv.mainfest, sv.latest)
 // it would be pretty simple to delay any view api... if we have a manifest
 // then we can defer the streams. Also, that means we get clients for free!
 // that means we just need an api to track where a given stream-view is consistent to.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
