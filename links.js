@@ -5,27 +5,6 @@ var pl = require('pull-level')
 
 //sorted index.
 
-/*
-  links = links || function (data) {
-    var ary = []
-
-    function toLinks (obj, id, rel) {
-      if(!obj) return
-      for (var k in obj) {
-        ary.push({
-          source: data.value.author,
-          dest: obj,
-          rel: [rel, k[obj],
-          key: data.key,
-          ts: data.ts
-        })
-      }
-    }
-
-    return ary
-  }
-*/
-
 module.exports = function (path, links, version) {
 
   var db = level(path)
@@ -86,5 +65,4 @@ module.exports = function (path, links, version) {
     }
   }
 }
-
 
