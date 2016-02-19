@@ -138,17 +138,3 @@ tape('ReduceStreamView works as counter (start and recover)', function (t) {
 
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
