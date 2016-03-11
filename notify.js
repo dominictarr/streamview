@@ -5,6 +5,11 @@ module.exports = function Notify () {
   }
   notify.listen = function (fn) {
     listeners.push(fn)
+    //returns function to remove this listener
+    return function () {
+      var i = listeners.indexOf(fn)
+      if(~i) listeners.splice(i, 1)
+    }
   }
   return notify
 }
