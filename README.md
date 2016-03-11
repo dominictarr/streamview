@@ -1,4 +1,4 @@
-# stream-view
+# streamview
 
 a database view that consumes a streamable (write ahead) log.
 

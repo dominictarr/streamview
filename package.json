@@ -1,11 +1,11 @@
 {
-  "name": "stream-view",
+  "name": "streamview",
   "description": "streaming database views",
   "version": "0.0.0",
-  "homepage": "https://github.com/dominictarr/stream-view",
+  "homepage": "https://github.com/dominictarr/streamview",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dominictarr/stream-view.git"
+    "url": "git://github.com/dominictarr/streamview.git"
   },
   "dependencies": {
     "pull-stream": "^3.1.0",
