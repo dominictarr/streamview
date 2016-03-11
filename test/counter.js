@@ -1,7 +1,7 @@
 
 var tape = require('tape')
 
-var Reduce = require('../reduce')
+var Reduce = require('../')
 var Validate = require('../validate')
 var pull = require('pull-stream')
 
