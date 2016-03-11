@@ -32,6 +32,10 @@ This async separation has several new benefits.
 * since the view is rebuilt, updating it is just starting over.
 * since it's separate, the view doesn't even need to be persisted in leveldb.
   room opens to experiment with different, simpler persistence mechanisms (i.e. memory or files ;)
+* since the view is rebuilt, and the log provides durability, the view doesn't
+  need to worry about durability, and can instead worry about performance.
+  you only need to write out the view occasionally, so rebuilding isn't too expensive,
+  but not on every write.
 * the view could even be implemented in another process in another language or on another machine.
 
 But this does create one new difficulty:
